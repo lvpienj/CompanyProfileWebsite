@@ -1,0 +1,109 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: -100px;
+    padding-right: -100px;
+    background-color: #393a3e;
+}
+
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.logo-img {
+    cursor: pointer;
+    width: 2%;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.logo-font {
+    cursor: pointer;
+    width: 20%;
+    margin-right: auto;
+
+}
+
+nav {
+    order: 1;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    margin-left: 40px;
+    margin-right: 50px;
+    padding: 9px 25px;
+    background-color: #20c018;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-kontak {
+    display: contents;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0);
+}
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #393a3e;
+    }
+
+    .nav-links {
+        display: none;
+        /* ... (your existing styles) */
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    /* .btn-kontak.show {
+        display: flex;
+    } */
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    button {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+}

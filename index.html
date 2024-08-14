@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons">
+    <script src="add-html.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Mitra Kasih Berdaya</title>
+</head>
+
+<body>
+    <div class="header">
+        <header class="top-nav" id="header">
+            <!-- The header will be loaded here -->
+        </header>
+
+        <!-- JavaScript code to load footer.html -->
+        <script>
+            // Function to load the footer from footer.html
+            function loadHeader() {
+                fetch('header.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('header').innerHTML = data;
+                    });
+            }
+
+            // Call the function to load the footer
+            loadHeader();
+        </script>
+    </div>
+
+    <div class="main">
+        <div id="home" class="home">
+            <div>
+                <h2 class="title-home">PT MITRA KASIH BERDAYA</h2>
+                <h5 class="sub-title-home">Kami Berdaya untuk Mendukung Usaha Anda</h5>
+            </div>
+            <div class="content-home">
+                <img class="content-home-picture" src="Images/Truck.png" alt="">
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <div class="wrapper-about">
+                <div class="box-about">
+                    <h2 class="title-about">Tentang Kami</h2>
+                    <hr>
+                    <h4 class="subtitle-about">Selamat Datang di PT Mitra Kasih Berdaya</h4> <br>
+                    <p class="desc-about">
+                        &nbsp; &nbsp; &nbsp;
+                        PT Mitra Kasih Berdaya adalah perusahaan transportasi yang bergerak di bidang sewa kendaraan,
+                        truk,
+                        dan
+                        forklift serta memberikan layanan ekspedisi di wilayah Jawa dan luar Jawa. Kami juga menyediakan
+                        tenaga
+                        kerja terlatih dan tersertifikasi untuk menjadi sopir dan operator forklift. Operasional kami
+                        didukung
+                        dengan adanya bengkel yang mampu melakukan perawatan berkala dan perbaikan unit.
+                        <br> <br>
+                        &nbsp; &nbsp; &nbsp;
+                        Selain layanan transportasi, kami juga menawarkan perdagangan umum barang dan jasa terkait
+                        lainnya.
+                        Komitmen kami adalah menjadi mitra yang handal dan mendukung kesuksesan klien kami.
+                        Bersama-sama,
+                        kita
+                        dapat mencapai hal-hal yang besar. Saatnya untuk memulai.
+                        <br> <br>
+                        "Bersama kita bisa, sekaranglah waktunya"
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="service" id="service">
+            <h2 class="heading-service">Layanan Kami</h2>
+            <hr>
+            <div class="body-service">
+                <div class="desc-service1">
+                    <a href="https://wa.link/6khcuq" style="--clr:#1e9bff"><span>Sewa Menyewa Kendaraan, Truk, dan
+                            Forklift</span><i></i></a>
+                </div>
+                <div class="desc-service2">
+                    <a href="https://wa.link/w1416p" style="--clr:#48ff00"><span>Melayani
+                            Ekspedisi/Milkrun</span><i></i></a>
+                </div>
+                <div class="desc-service3">
+                    <a href="https://wa.link/hfusk6" style="--clr:#ab1f99"><span>Perdagangan Umum
+                            Barang</span><i></i></a>
+                </div>
+                <div class="desc-service4">
+                    <a href="https://wa.link/hcvrdu" style="--clr:#0fcfc2"><span>Sumber Daya Manusia
+                            (Supir/Operator)</span><i></i></a>
+                </div>
+                <div class="desc-service5">
+                    <a href="https://wa.link/bam1v5" style="--clr:#cf9612"><span>Jasa Lainnya</span><i></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="project" id="project">
+            <h2 class="title-project">Proyek Kami Saat Ini</h2>
+            <hr>
+            <h2 class="sub-title-project">Saat ini kami melayani angkutan di:</h2>
+            <div class="all-box-project">
+                <div class="body-box-project">
+                    <div class="box-company-project">
+                        <h2>PT HINODE LAMBOK SEJAHTERA</h2>
+                    </div>
+                </div>
+                <div class="body-box-below-project">
+                    <div class="box-company-project">
+                        <h2>PT GEMILANG SEJAHTERA TRILESTARI</h2>
+                    </div>
+                </div>
+                <div class="body-box-below-project">
+                    <div class="box-company-project">
+                        <h2>PT SONS DARAJAT MANDIRI</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Button -->
+    <div class="wa-button">
+        <div class="fixed-btn">
+            <div class="mediaa-icons">
+                <a href="https://wa.link/6h1fe9"><i class="fa fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <footer id="footer">
+            <!-- The footer will be loaded here -->
+        </footer>
+
+        <!-- JavaScript code to load footer.html -->
+        <script>
+            // Function to load the footer from footer.html
+            function loadFooter() {
+                fetch('footer.html')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('footer').innerHTML = data;
+                    });
+            }
+
+            // Call the function to load the footer
+            loadFooter();
+        </script>
+    </div>
+
+</body>
+
+</html>
